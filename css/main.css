@@ -1,0 +1,133 @@
+/* =======================
+General
+========================== */
+
+body {
+    font-family: "Open Sans", sans-serif
+}
+
+a{
+    text-decoration: none;
+}
+
+#wrapper {
+    margin: 0 5%;
+}
+
+header{
+    float: left;
+    margin: 0 0 30px 0; /*Top Right Bottom Left */
+    padding: 10px 0 0 0;  
+    width: 100%;
+    border-bottom: 2px solid green;
+
+}
+
+#logo{
+    text-align:center;
+    margin:0;
+}
+
+#logo h2{
+    margin-bottom: 3%;
+
+}
+
+h1{
+    font-family: "Changa One",sans-serif;
+    margin:20px 0; /*top 20px Bottom 20px Left 0 Right 0*/
+    
+}
+
+h2{
+    font-size: 0.75em;
+}
+/*=======================================
+Navigation
+========================================*/
+
+nav{
+    text-align:center;
+    padding: 10px 0;
+    margin-top:20px 0 0;/* top 20px, left 0, right 0,bottom 0*/
+}
+
+nav ul{
+       
+       list-style-type: none;
+       padding: 0;
+       margin: 0 30px;
+}
+
+nav ul li{
+    display:inline-block;
+
+}
+
+nav ul li a{
+    font-weight:800 ;
+    padding:15px 10px;
+}
+
+/*=======================================
+Project Secction
+========================================*/
+
+#gallery{
+     margin:0;
+     padding: 0;
+     list-style-type: none;
+}
+#gallery li{
+    float: left;
+    width: 45%;
+    margin:2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+
+#gallery li:nth-child(4){
+    clear:both;
+
+}
+
+
+img{
+    max-width: 100%;}
+
+#gallery li a p {
+    margin:0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+
+/* =======================
+About
+========================== */
+
+.profile-photo{
+    max-width:150px;
+    /*display:block;*/
+    margin: 0 auto 30px;
+
+}
+
+/* =======================
+Footer
+========================== */
+
+footer{
+    font-size: 0.75em;
+    text-align: center;
+    clear:both;
+    padding-top:50px;
+    color:#ccc;
+
+}
+footer h5{
+    text-align: center;
+    color: #bdc3c7;
+
+}
+
